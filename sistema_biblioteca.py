@@ -13,6 +13,6 @@ class Biblioteca:
         print(f"{self.nome} escolheu o livro '{self.livros[escolha - 1]}'")
 
 if __name__ == "__main__":
-    nome = input("Nome: ")
+    nome = input("Nome: ").title()
     biblioteca = Biblioteca(nome)
     biblioteca.emprestar_livro()
