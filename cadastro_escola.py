@@ -29,7 +29,7 @@ if __name__ == "__main__":
     curso = Curso("Matemática")
     aluno1 = Aluno("Vanim")
     aluno2 = Aluno("Kiko")
-    prof = Professor("Carlos Victor")
+    prof = Professor("Prof Carlos Victor")
     curso.adicionar_aluno(aluno1)
     curso.adicionar_aluno(aluno2)
     curso.adicionar_professor(prof)

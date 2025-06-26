@@ -2,7 +2,7 @@ class Biblioteca:
     def __init__(self, nome):
         self.nome = nome
         self.livros = [
-            "Gênesis", "Êxodo", "Levítico", "Números", "Deuteronômio",
+            "Gênesis", "Êxodo", "Eclesiátes", "Números", "Deuteronômio",
             "Salmos", "Provérbios", "Isaías", "Mateus", "Apocalipse"
         ]
 

@@ -10,6 +10,6 @@ class Feira:
         print(f"{self.nome} escolheu a fruta '{self.frutas[escolha - 1]}'")
 
 if __name__ == "__main__":
-    nome = input("Nome do solicitante: ")
+    nome = input("Nome: ").title()
     feira = Feira(nome)
     feira.escolher_fruta()
